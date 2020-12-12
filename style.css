@@ -154,6 +154,13 @@ a {
   width: 100%;
 }
 
+@media only screen and (max-width: 1125px) {
+  .info-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .info-section .info-items {
   display: -ms-grid;
   display: grid;
@@ -298,6 +305,13 @@ a {
   padding-top: 80px;
 }
 
+@media only screen and (max-width: 1125px) {
+  .photoshop-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .photoshop-section .photoshop-items {
   display: -ms-grid;
   display: grid;
@@ -400,6 +414,13 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 1125px) {
+  .corper-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .corper-section .corper-items {
@@ -575,6 +596,13 @@ a {
   padding-bottom: 40px;
 }
 
+@media only screen and (max-width: 1125px) {
+  .experience-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .experience-section .experience-items {
   display: -ms-grid;
   display: grid;
@@ -739,6 +767,13 @@ a {
   padding-bottom: 40px;
 }
 
+@media only screen and (max-width: 1125px) {
+  .posture-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .posture-section .posture-items {
   display: -ms-grid;
   display: grid;
@@ -850,6 +885,13 @@ a {
   background-color: #97a9bd;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1125px) {
+  .profile-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .profile-section .profile-items {
@@ -983,6 +1025,13 @@ a {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1125px) {
+  .admin-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .admin-section .admin-items {
@@ -1130,6 +1179,13 @@ a {
   width: 100%;
   background-color: #f4f4f4;
   padding-top: 30px;
+}
+
+@media only screen and (max-width: 1125px) {
+  .contact-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .contact-section .contact-items {
@@ -1328,6 +1384,13 @@ a {
   background-size: cover;
 }
 
+@media only screen and (max-width: 1125px) {
+  .footer-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .footer-section .footer-items {
   display: -ms-grid;
   display: grid;
@@ -1480,6 +1543,13 @@ a {
   background-color: #282E39;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1125px) {
+  .copyright-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .copyright-section .copyright-items {

@@ -1,60 +1,5 @@
-$black: #000000;
-$black2: #282E39;
-$white: #fff;
-$grey: #97a9bd;
-$lightgrey: #f4f4f4;
-$purple: #a197bd;
-$brown: #bda697;
-$green: #97bdab;
-@mixin circle {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    background-color: $grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@mixin logo {
-    h2 {
-        color: $white;
-        font-size: 1.8rem;
-        span {
-            color: $green;
-            font-size: 1.5em;
-            padding-right: 5px;
-            padding-left: 5px;
-        }
-    }
-}
-
-@mixin information {
-    width: 100%;
-    text-align: center;
-    p {
-        font-size: 1rem;
-        color: $white;
-    }
-    h4 {
-        color: $white;
-        font-size: 2.2rem;
-    }
-}
-
-@mixin information2 {
-    width: 100%;
-    text-align: center;
-    p {
-        font-size: 1rem;
-        color: $black;
-    }
-    h4 {
-        color: $black;
-        font-size: 2.2rem;
-    }
-}
-
+@import "common/mixins.css";
+@import "common/vars.css";
 .header-section {
     width: 100%;
     background-color: $black;
@@ -146,6 +91,10 @@ $green: #97bdab;
 
 .info-section {
     width: 100%;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .info-items {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -240,6 +189,10 @@ $green: #97bdab;
 .photoshop-section {
     width: 100%;
     padding-top: 80px;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .photoshop-items {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -309,6 +262,10 @@ $green: #97bdab;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 30px;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .corper-items {
         display: grid;
         grid-template-columns: 1fr;
@@ -412,6 +369,10 @@ $green: #97bdab;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .experience-items {
         display: grid;
         grid-template-columns: 1fr;
@@ -511,6 +472,10 @@ $green: #97bdab;
     margin-top: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .posture-items {
         display: grid;
         grid-template-columns: 1fr;
@@ -576,6 +541,10 @@ $green: #97bdab;
     background-color: $grey;
     padding-top: 30px;
     padding-bottom: 30px;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .profile-items {
         display: grid;
         grid-template-columns: 1fr;
@@ -652,6 +621,10 @@ $green: #97bdab;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .admin-items {
         display: grid;
         grid-template-columns: 1fr;
@@ -745,6 +718,10 @@ $green: #97bdab;
     width: 100%;
     background-color: $lightgrey;
     padding-top: 30px;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .contact-items {
         display: grid;
         grid-template-columns: 1fr;
@@ -871,6 +848,10 @@ $green: #97bdab;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .footer-items {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -970,6 +951,10 @@ $green: #97bdab;
     background-color: $black2;
     padding-top: 20px;
     padding-bottom: 20px;
+    @media only screen and (max-width: 1125px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .copyright-items {
         display: flex;
         justify-content: space-between;
